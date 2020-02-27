@@ -1,3 +1,8 @@
+/*Fonts*/
+@font-face {
+    font-family: 'JB_MR'; 
+    src: url(/fonts/18893.ttf); 
+   }
 body{
     margin: 0px;
 }
@@ -10,16 +15,17 @@ body{
 #navmenu>.container{
     display: inline-block;
     width: 80%;
+    height: 60%;
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 10%;
     margin-right: 10%;
+    font-family: 'JB_MR' !important;
 }
 #navmenu>.container>#logo{
     display: inline-block;
     font-size: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+    }
 #navmenu>.container>#logo>a{
     position: relative;
     text-decoration: none;
@@ -30,6 +36,7 @@ body{
     position: relative;
     display: inline-block;
     left: 50%;
+    font-weight: lighter;
 }
 #navmenu>.container>#navigation>ul{
     list-style-type: none;
@@ -46,7 +53,9 @@ body{
     font-size: 25px;
 }
 #navmenu>.container>#navigation>ul>li:hover{
-    background-color: rgba(255, 255, 255, 0.637);
+    background-color: rgba(255, 255, 255, 0.352);
+    border: 0.5px solid rgba(255, 255, 255, 0.2);
+    transition-duration: 1.0s;
 }
 #navmenu>.container>#navigation>ul>li>a{
     position: relative;
