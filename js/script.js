@@ -26,3 +26,6 @@ $(window).on('scroll',function(){
         })
     }
 });
+function zz(){
+    $('#mobileNav').toggle();
+}
